@@ -12,14 +12,16 @@
 
 
 body {
-	background-color: black;
+	/* background-color: #; */
+	/* background-color: #020014; */
+	/* background-image: linear-gradient(#020014,#0d0014); */
+	background-image: linear-gradient(to left, #34002d, #2b042d, #21062c, #19062a, #110427, #0d0326, #080224, #030123, #030124, #040125, #040126, #040127);
 	margin: 0;
 	padding: 0;
 }
 
 .topnav {
 	overflow: hidden;
-	background-color: black;
 }
 
 .topnav a {
@@ -33,8 +35,7 @@ body {
 }
 
 .topnav a:hover {
-	background-color: black;
-	color: black;
+	text-shadow: 1px 1px 5px #6702d2;
 }
   
 .topnav a.active {
@@ -59,9 +60,10 @@ body {
 	text-transform: uppercase;
 	margin-left: -25px;
 	margin-top: 14px;
-	animation: 2s ease-out 0s 1 slideInSpace;
+	/* animation: 2s ease-out 0s 1 slideInSpace; */
 	/* animation: fadein 2s; */
 	/* border: 1px white solid; */
+	text-shadow: 1px 1px 2px #4402d2;
 	
 }
 
