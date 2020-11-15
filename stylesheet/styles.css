@@ -15,7 +15,9 @@ body {
 	/* background-color: #; */
 	/* background-color: #020014; */
 	/* background-image: linear-gradient(#020014,#0d0014); */
-	background-image: linear-gradient(to left, #34002d, #2b042d, #21062c, #19062a, #110427, #0d0326, #080224, #030123, #030124, #040125, #040126, #040127);
+	background: rgb(3,2,70);
+	background: linear-gradient(90deg, rgba(3,2,70,1) 0%, rgba(1,55,93,1) 80%, rgba(78,0,84,1) 100%);
+	/* background-image: linear-gradient(to left, #34002d, #2b042d, #21062c, #19062a, #110427, #0d0326, #080224, #030123, #030124, #040125, #040126, #040127); */
 	margin: 0;
 	padding: 0;
 	animation: fadein 2s;
