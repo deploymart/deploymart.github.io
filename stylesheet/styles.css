@@ -18,6 +18,7 @@ body {
 	background-image: linear-gradient(to left, #34002d, #2b042d, #21062c, #19062a, #110427, #0d0326, #080224, #030123, #030124, #040125, #040126, #040127);
 	margin: 0;
 	padding: 0;
+	animation: fadein 2s;
 }
 
 .topnav {
@@ -60,8 +61,8 @@ body {
 	text-transform: uppercase;
 	margin-left: -25px;
 	margin-top: 14px;
+	animation: fadein 3s;
 	/* animation: 2s ease-out 0s 1 slideInSpace; */
-	/* animation: fadein 2s; */
 	/* border: 1px white solid; */
 	text-shadow: 1px 1px 2px #4402d2;
 	
@@ -71,6 +72,36 @@ body {
 
 }
 
+
+@keyframes fadein {
+	0% {
+	  opacity: 0;
+	}
+	/* 10% {
+		opacity: 0.1;
+	}
+
+	70% {
+		opacity: 0.2;
+	}
+
+	80% {
+		opacity: 0.5;
+	}
+
+	90% {
+		opacity: 1;
+	}
+
+	95% {
+		opacity: 1;
+	} */
+
+	100% {
+		opacity: 1;
+	}
+  }
+  
 
 
 @keyframes slideInSpace {
